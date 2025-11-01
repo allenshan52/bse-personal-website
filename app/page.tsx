@@ -29,7 +29,7 @@ export default function Home() {
 						<Link href="#experience" className="text-gray-400 hover:text-white transition-colors">Experience</Link>
 						<Link
 							href={`mailto:${portfolioData.email}`}
-							className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+							className="bg-blue-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
 						>
 							Contact Me
 						</Link>

@@ -1,12 +1,12 @@
 import type { Portfolio } from "@/lib/types";
 
 const PORTFOLIO_DATA: Portfolio = {
-	name: "Your Name Here",
+	name: "Allen Yitian Shan",
 	headline: "Aspiring Innovator | Full-Stack Developer | AI Enthusiast",
 	bio: "A results-driven computer science student at [Your University] with a passion for building disruptive, scalable, and user-centric applications. Eager to leverage modern technologies to solve real-world problems and drive impactful change. Currently seeking high-growth internship opportunities for Summer 202X.",
 
 	// Your contact email
-	email: "hello@yourdomain.com",
+	email: "allenshan.yitian@gmail.com",
 
 	// Add your links here
 	// Supported icons: 'GitHub', 'LinkedIn', 'Twitter', 'Blog'
@@ -26,9 +26,9 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add your projects here
 	projects: [
 		{
-			title: "Project 'Synergy'",
+			title: "Secondhanf Object Exchange APP",
 			description: "A decentralized, AI-powered platform to streamline cross-functional team collaboration using a novel blockchain consensus algorithm. Built with a microservices architecture.",
-			stack: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Vercel"],
+			stack: ["JavaScript", "Node.js", "MongoDB", "Tailwind CSS", "Vercel"],
 			githubLink: "",
 			liveLink: "",
 		},
@@ -51,25 +51,11 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add your experience here
 	experience: [
 		{
-			role: "Software Engineer Intern (Incoming)",
-			company: "Big Tech Co / FAANG",
-			date: "Summer 202X",
-			location: "Menlo Park, CA (Remote)",
+			role: "AI Software Engineer Intern",
+			company: "Lenovo",
+			date: "June to August 2025",
+			location: "Beijing, China",
 			description: "Selected for a highly competitive internship program. Will be joining the [Cloud/AI/Growth] team to work on high-impact, customer-facing features."
-		},
-		{
-			role: "Club President / Co-Founder",
-			company: "[Your Vibe-Coding Club Name]",
-			date: "Aug 202X - Present",
-			location: "[Your University]",
-			description: "Grew the organization from 5 to 200+ members by fostering a culture of innovation and 'vibecoding.' Organized tech talks with industry leaders from Google, Meta, and hot startups."
-		},
-		{
-			role: "Teaching Assistant - Intro to CS",
-			company: "[Your University]",
-			date: "Jan 202X - May 202X",
-			location: "[Your University]",
-			description: "Mentored 50+ students, held office hours, and graded assignments for foundational computer science concepts. Received a 95% positive feedback rating from students."
 		}
 	],
 
@@ -77,15 +63,9 @@ const PORTFOLIO_DATA: Portfolio = {
 	education: [
 		{
 			degree: "B.S. in Computer Science",
-			institution: "[Your University]",
-			date: "Expected May 202X",
+			institution: "University of California, Los Angeles",
+			date: "Expected May 2028",
 			note: "Minor in [e.g., Business, Data Science]"
-		},
-		{
-			degree: "Best 'Vibe' Hack",
-			institution: "[Some Hackathon]",
-			date: "Fall 202X",
-			note: "Awarded for the project with the slickest UI and best pitch."
 		}
 	]
 };
