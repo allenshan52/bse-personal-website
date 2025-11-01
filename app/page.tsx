@@ -92,18 +92,6 @@ export default function Home() {
 						</div>
 					</section>
 
-					{/* Projects Section */}
-					<section id="projects">
-						<h2 className="text-3xl font-bold text-white text-center">
-							Projects
-						</h2>
-						<div className="mt-8 grid md:grid-cols-2 gap-8">
-							{portfolioData.projects.map((project) => (
-								<ProjectCard key={project.title} project={project} />
-							))}
-						</div>
-					</section>
-
 					{/* Experience Section */}
 					<section id="experience">
 						<h2 className="text-3xl font-bold text-white text-center">
@@ -112,6 +100,18 @@ export default function Home() {
 						<div className="mt-8 space-y-10">
 							{portfolioData.experience.map((exp) => (
 								<ExperienceItem key={exp.company + exp.role} exp={exp} />
+							))}
+						</div>
+					</section>
+
+					{/* Projects Section */}
+					<section id="projects">
+						<h2 className="text-3xl font-bold text-white text-center">
+							Projects
+						</h2>
+						<div className="mt-8 grid md:grid-cols-2 gap-8">
+							{portfolioData.projects.map((project) => (
+								<ProjectCard key={project.title} project={project} />
 							))}
 						</div>
 					</section>
