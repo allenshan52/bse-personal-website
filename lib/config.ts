@@ -19,14 +19,14 @@ const PORTFOLIO_DATA: Portfolio = {
 
 	// Add your skills here
 	skills: [
-		"JavaScript", "TypeScript", "React", "Next.js", "Node.js",
-		"Python", "Go", "Tailwind CSS", "Firebase", "AWS", "Docker", "Kubernetes"
+		"JavaScript/TypeScript", "Tailwind CSS", "React", "Node.js", "Python", "Tensorflow" , "PyTorch", "C++", "Java", "AWS", 
+		"OpenAI API", "Ollama", "OpenVino", "HuggingFace", "Fast API"
 	],
 
 	// Add your projects here
 	projects: [
 		{
-			title: "Secondhanf Object Exchange APP",
+			title: "Secondhand Object Exchange APP",
 			description: "A decentralized, AI-powered platform to streamline cross-functional team collaboration using a novel blockchain consensus algorithm. Built with a microservices architecture.",
 			stack: ["JavaScript", "Node.js", "MongoDB", "Tailwind CSS", "Vercel"],
 			githubLink: "",
@@ -55,7 +55,7 @@ const PORTFOLIO_DATA: Portfolio = {
 			company: "Lenovo",
 			date: "June to August 2025",
 			location: "Beijing, China",
-			description: "Selected for a highly competitive internship program. Will be joining the [Cloud/AI/Growth] team to work on high-impact, customer-facing features."
+			description: "Architected a FastAPI based AI agent pipeline that generates real-time multimodal meeting-note for Microsoft Teams meetings by locally deploying LLMs and the OpenAI API, leading prompt engineering for generating meeting keypoints as well as complementary images and videos, and designing a tiered NLP architecture to optimize the grouping of meeting segments, improving pipeline run speed by 80% and increasing chosen image/video correlation with generated notes by 55% under rigid token restrictions."
 		}
 	],
 
@@ -65,7 +65,7 @@ const PORTFOLIO_DATA: Portfolio = {
 			degree: "B.S. in Computer Science",
 			institution: "University of California, Los Angeles",
 			date: "Expected May 2028",
-			note: "Minor in [e.g., Business, Data Science]"
+			note: "GPA: 3.8/4"
 		}
 	]
 };

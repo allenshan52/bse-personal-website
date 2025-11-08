@@ -221,7 +221,7 @@ function EducationItem({ edu }: { edu: Education }) {
 	return (
 		<div className="flex">
 			<div className="shrink-0 mr-4">
-				<span className="flex items-center justify-center h-10 w-10 rounded-full bg-gray-800 border border-gray-700">
+				<span className="flex items-center justify-center h-10 w-10 rounded-full bg-gray-800 border-1 border-gray-700">
 					<Award className="w-5 h-5 text-blue-400" />
 				</span>
 			</div>
